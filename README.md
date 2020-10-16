@@ -12,7 +12,9 @@ Controller box inside shack:
 
 --------------------------------------------
 
-Remote box, ABS plastic. Rotates in azimuth.
+Remote:
+ ABS plastic box. Rotates in azimuth.
+
 Contents:
 1x GY-291 ADXL345 Triple Axis Accelerometer, in a small aluminium box, mounted to the elevation axis gearbox shaft.
 
