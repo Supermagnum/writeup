@@ -20,6 +20,8 @@ Contents:
 
 1x LSM303DLHC digital compass and accelerometer,in a small aluminium box.
 Mounted close to the top. Non magnetic fasteners.
+It's located ~ 121 mm above the steppers and the gearboxes.
+I hope that it's enough to not be affected by the magnetic field from the steppers and worm gears.
 
 1x SparkFun GPS Breakout - NEO-M9N, Chip Antenna,I2C adress 0x42.
 Mounted in top of the remote box.
