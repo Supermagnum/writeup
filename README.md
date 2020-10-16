@@ -10,6 +10,8 @@ Controller box inside shack:
 
 1X DC bias insertion pcb, mounted in aluminium box, ferrites on DC cables.
 
+--------------------------------------------
+
 Remote box, ABS plastic. Rotates in azimuth.
 Contents:
 1x GY-291 ADXL345 Triple Axis Accelerometer, in a small aluminium box, mounted to the elevation axis gearbox shaft.
