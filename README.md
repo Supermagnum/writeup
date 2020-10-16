@@ -31,14 +31,15 @@ Mounted in top of the remote box.
 
 2X NEMA 23 steppers 1.8° steps with 60:1 ( 0.03 ° output steps ) worm gear boxes for azimuth and elevation in this for mechanical strength:
 https://github.com/Supermagnum/Nemabox/blob/main/README.md
+Ferrite core on the motor cables.
 
-DC bias extractor in a aluminium box, ferrites on the DC cables.
+DC bias extractor in a aluminium box, ferrite on the DC cables.
 
 Note:
 24 V DC power for the motors by coax cable ( Up to 10A 60 Vdc, 1.8 MHz to  470 MHz ): https://github.com/Supermagnum/Mjollnir.
 
 Ferrites should be mix 51 or 61 ( European 4C65 ).
-Those should also be used on the I2C bus cables, or shielded cable used.
+Those should also perhaps be used on the I2C bus cables, or shielded cable used.
 
 
 
