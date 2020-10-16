@@ -26,7 +26,7 @@ I hope that it's enough to not be affected by the magnetic field from the steppe
 1x SparkFun GPS Breakout - NEO-M9N, Chip Antenna,I2C adress 0x42.
 Mounted in top of the remote box.
 
-1x PCF8575 I2C 16-Bit Digital Input Output Expander IC2 adress 0x3E, controlls :
+1x PCF8575 or PCA9555 I2C 16-Bit Digital Input Output Expander IC2 adress 0x3E, controlls :
 2X Dual BTS7960 H Bridge stepper motor controllers ( uses 6 pins for control each + 2 pins for 5V and gnd )  Mounted in a aluminium box. Non magnetic fasteners.
 
 2X NEMA 23 steppers 1.8° steps with 60:1 ( 0.03 ° output steps ) worm gear boxes for azimuth and elevation in this for mechanical strength:
