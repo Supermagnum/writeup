@@ -36,10 +36,15 @@ Ferrite core on the motor cables.
 DC bias extractor in a aluminium box, ferrite on the DC cables.
 
 Note:
-24 V DC power for the motors by coax cable ( Up to 10A 60 Vdc, 1.8 MHz to  470 MHz ): https://github.com/Supermagnum/Mjollnir.
+24 V DC power for the motors by coax cable ( Up to 10A 60 Vdc, 1.8 MHz to  470 MHz ): 
+https://github.com/Supermagnum/Mjollnir.
 
 Ferrites should be mix 51 or 61 ( European 4C65 ).
 Those should also perhaps be used on the I2C bus cables, or shielded cable used.
+
+2X Omron E6B2-CWZ6C 2000P incremental rotary encoders 
+could possibly be used in combination with the mentioned sensors.
+They give 2000 pulses per 360° of rotation. 
 
 
 
