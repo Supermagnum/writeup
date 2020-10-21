@@ -6,7 +6,7 @@ Controller box inside shack:
 
 1X LCD2004A ,LCD 20*4 Characters for Arduino, with  HD44780 I2C bus. 
 
-1x SparkFun Differential I2C Breakout - PCA9615 ( 5V power is sent by the 16 feet long ethernet cable )
+1x SparkFun Differential I2C Breakout - PCA9615 ( 3,3V DC power is sent by the 16 feet long ethernet cable )
 
 1X DC bias insertion pcb, mounted in aluminium box, ferrites on DC cables.
 
