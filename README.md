@@ -41,7 +41,7 @@ Mounted in a aluminium box. These stepper controllers requires 5VDC for the elec
 
 2X NEMA 23 steppers 1.8° steps with 60:1 ( gives 0.03 ° output steps ) worm gear boxes for azimuth and elevation in this for mechanical strength:
 https://github.com/Supermagnum/Nemabox/blob/main/README.md
-Ferrite cores on the motor cables.
+Ferrite cores on the motor cables. 12V or 24 V drive, PWM.
 
 DC bias extractor in a aluminium box, ferrite on the DC cables.
 
@@ -54,7 +54,7 @@ VDD A-B jumper trace has been cut.
 Separate power supply (3.0-5.5V) is supplied to VDD_B, while VDD_A remains at 3.3V.
 VDD_B voltage is connected to a twisted pair of the Ethernet cable and sent to the slave nodes.
 
-24 V DC power for the motors by coax cable ( Up to 10A 60 Vdc, 1.8 MHz to  470 MHz ): 
+12V or 24 V DC power for the motors by coax cable ( Up to 10A 60 Vdc, 1.8 MHz to  470 MHz ): 
 https://github.com/Supermagnum/Mjollnir.
 
 Ferrites should be mix 51 or 61 ( European 4C65 ).
@@ -66,7 +66,12 @@ Option:
 
 2X Omron E6B2-CWZ6C 2000P incremental rotary encoders 
 could possibly be used in combination with the mentioned sensors.
-They give 2000 pulses per 360° of rotation. 
+They give 2000 pulses per 360° of rotation, 
+that's around 5.5 steps per degree, 0.18° resolution.
+
+The ideal whould be a resolution of 0.03 °, but that involves sensors with 10,000 steps per 360 turn.
+This one is capable of that, but it's very expensive and overkill for this application.
+https://www.digikey.com/en/products/detail/sensata-bei-sensors/01005-1066/6244934
 
 
 
