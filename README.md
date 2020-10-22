@@ -4,6 +4,8 @@ just a list of components for K3NG rotor controller.
 Controller box inside shack:
 1X Arduino Leonardo
 
+2x SPDT on-off-on momentary switches for manual up,down,CW and CCW rotation.
+
 1X LCD2004A ,LCD 20*4 Characters for Arduino, with  HD44780 I2C bus. 
 
 1x SparkFun Differential I2C Breakout - PCA9615 ( 3,3V DC and 5VDC power is sent by the 16 feet long ethernet cable, details in notes )
@@ -51,8 +53,6 @@ Reference: https://learn.sparkfun.com/tutorials/qwiic-differential-i2c-bus-exten
 VDD A-B jumper trace has been cut.
 Separate power supply (3.0-5.5V) is supplied to VDD_B, while VDD_A remains at 3.3V.
 VDD_B voltage is connected to a twisted pair of the Ethernet cable and sent to the slave nodes.
-
-
 
 24 V DC power for the motors by coax cable ( Up to 10A 60 Vdc, 1.8 MHz to  470 MHz ): 
 https://github.com/Supermagnum/Mjollnir.
