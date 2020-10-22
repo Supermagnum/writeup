@@ -28,12 +28,14 @@ I hope that it's enough to not be affected by the magnetic field from the steppe
 1x SparkFun GPS Breakout - NEO-M9N, Chip Antenna,I2C adress 0x42.
 Mounted in top of the remote box.
 
-1x PCF8575 or PCA9555 I2C 16-Bit Digital Input Output Expander IC2 adress 0x3E, controlls :
-2X Dual BTS7960 H Bridge stepper motor controllers ( uses 6 pins for control each + 2 pins for 5V and gnd )  Mounted in a aluminium box. Non magnetic fasteners.
+1x PCF8575 or PCA9555 I2C 16-Bit Digital Input Output Expander IC2 adress 0x3E, controlls 
+( The IO expanders is currently not supported in the K3NG rotor controller code ):
+2X Dual BTS7960 H Bridge stepper motor controllers ( uses 6 pins for control each + 2 pins for 5V and gnd ) 
+Mounted in a aluminium box.
 
-2X NEMA 23 steppers 1.8° steps with 60:1 ( 0.03 ° output steps ) worm gear boxes for azimuth and elevation in this for mechanical strength:
+2X NEMA 23 steppers 1.8° steps with 60:1 ( gives 0.03 ° output steps ) worm gear boxes for azimuth and elevation in this for mechanical strength:
 https://github.com/Supermagnum/Nemabox/blob/main/README.md
-Ferrite core on the motor cables.
+Ferrite cores on the motor cables.
 
 DC bias extractor in a aluminium box, ferrite on the DC cables.
 
@@ -46,6 +48,8 @@ https://github.com/Supermagnum/Mjollnir.
 
 Ferrites should be mix 51 or 61 ( European 4C65 ).
 Those should also perhaps be used on the I2C bus cables, or shielded cable used.
+
+All aluminium boxes and grounds must be tied together.
 
 Option:
 
