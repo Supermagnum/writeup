@@ -2,7 +2,7 @@
 just a list of components for K3NG rotor controller.
 
 Controller box inside shack:
-1X Arduino Leonardo
+1X Arduino Mega 2560
 
 2x SPDT on-off-on momentary switches for manual up,down,CW and CCW rotation.
 
