@@ -34,7 +34,7 @@ I hope that it's enough to not be affected by the magnetic field from the steppe
 Mounted in top of the remote box.
 
 1x PCF8575 or PCA9555 I2C 16-Bit Digital Input Output Expander IC2 adress 0x3E, controlls:
-2X Dual BTS7960 H Bridge stepper motor controllers per stepper motor.  
+1X TB6600 H Bridge stepper motor controllers per stepper motor.  
 Mounted in a aluminium box. These stepper controllers requires 5VDC for the electronics to work.
 Please read notes.
 
